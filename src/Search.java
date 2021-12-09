@@ -36,7 +36,6 @@ public class Search {
 
         // I want to let the user create their own array, but I guess I could only let them create an array with a set
         // number of values right now...
-        int[] arr = {1, 12, 123, 1234, 12345, 123456, 1234567, 12345678, 123456789, 1234567890};
         System.out.println("Enter the number you would like to try to find in the array.");
         int num = scan.nextInt();
         int result = search(arr, num);
